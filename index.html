@@ -5,92 +5,219 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;400;800&display=swap" rel="stylesheet">
-
+    <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;400;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
 
     <title>James Barkley Portfolio</title>
 </head>
 
 <body>
 
-    <div class="topnav" id="myTopnav">
-        <a class="home" href="#home" class="active">
-            <span id="first_name"> JAMES. <span id="last_name">BARKLEY</span> </span>
+
+
+
+
+
+    <!--Top NavBar-->
+    <!-- Image and text -->
+    <nav class="navbar fixed-top">
+        <a class="navbar-brand resumeBottom" href="#">
+            <i class="fa fa-terminal" aria-hidden="true"></i>
+
+            JAMES.<strong class="resumeBottom">BARKLEY</strong>
         </a>
-        <a class="rightIcon" href="#news">RESUME</a>
-
-    </div>
+    </nav>
 
 
-    <div class="container">
+    <!--Description-->
+    <div>
+        <div class="welcome p1">
+
+            <div class="p intro">
+                <p class="nameHeader greeting">HI, MY NAME IS <span class="name">JAMES BARKLEY</span></p>
+            </div>
+            <div class="p description">
+                <h2 class="s description">I AM A JUNIOR STUYDING COMPUTER SCIENCE <br> AT NC STATE UNIVERSITY!</h2>
+            </div>
+            <div class="seperation">
+                <hr class="s style-two">
+            </div>
 
 
 
-
-        <div class="welcome">
-            <div></div>
-            <h1 class="greeting">Hello, My name is James Barkley</h1>
-            <h2 class="description">I am a junior studying Computer Science at North Carolina State
-                University!</h2>
 
         </div>
+        <div></div>
+
 
 
         <div class="container">
 
             <!-- The grid: three columns -->
             <div class="row">
-                <div class="col-lg-3 col-md-12 column" onclick="openTab('b1');" style="background:green;">Box 1</div>
-                <div class="col-lg-3 col-md-12 column" onclick="openTab('b2');" style="background:blue;">Box 2</div>
-                <div class="col-lg-3 col-md-12 column" onclick="openTab('b3');" style="background:red;">Box 3</div>
-                <div class="col-lg-3 col-md-12 column" onclick="openTab('b1');" style="background:green;">Box 1</div>
-                <div class="col-lg-3 col-md-12 column" onclick="openTab('b2');" style="background:blue;">Box 2</div>
-                <div class="col-lg-3 col-md-12 column" onclick="openTab('b3');" style="background:red;">Box 3</div>
+                <div class="column one col-sm-12 col-md-4 col-lg-3" onclick="openTab('b1');">
+                    <a href="#b1" onclick="openTab('b1');">
+                        <div class="middle">
+                            <div class="text">Ticket Manager</div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="column two  col-sm-12 col-md-4 col-lg-3" onclick="openTab('b2');">
+                    <a href="#b1" onclick="openTab('b1');">
+                        <div class="middle">
+                            <div class="text">Catch 100</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column  three col-sm-6 col-md-4 col-lg-3" onclick="openTab('b3');">
+                    <a href="#b1" onclick="openTab('b1');">
+                        <div class="middle">
+                            <div class="text">Portfolio</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column  four col-sm-6 col-md-4 col-lg-3" onclick="openTab('b3');">
+                    <a href="#b1" onclick="openTab('b1');">
+                        <div class="middle">
+                            <div class="text">Project Bug Tracker</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column five col-sm-6 col-md-4 col-lg-3" onclick="openTab('b1');">
+                    <a href="#b1" onclick="openTab('b1');">
+                        <div class="middle">
+                            <div class="text">Word's Worth</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column six col-sm-6 col-md-4 col-lg-3" onclick="openTab('b2');">
+                    <a href="#b1" onclick="openTab('b1');">
+                        <div class="middle">
+                            <div class="text">PackDoption</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column  seven col-sm-6 col-md-4 col-lg-3" onclick="openTab('b3');">
+                    <a href="#b1" onclick="openTab('b1');">
+                        <div class="middle">
+                            <div class="text">Coming Soon</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column  eight col-sm-6 col-md-4 col-lg-3" onclick="openTab('b3');">
+                    <a href="#b1" onclick="openTab('b1');">
+                        <div class="middle">
+                            <div class="text">Movie Database</div>
+                        </div>
+                    </a>
+                </div>
+
 
             </div>
+            <div>
+                <!-- The expanding grid (hidden by default) -->
+                <div id="b1" class="containerTab">
+                    <!-- If you want the ability to close the container, add a close button -->
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">
+                        <i class="fa fa-times-circle" aria-hidden="true"></i>
+                    </span>
 
-            <!-- The expanding grid (hidden by default) -->
-            <div id="b1" class="containerTab" style="display:none;background:green">
-                <!-- If you want the ability to close the container, add a close button -->
-                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-                <h2>Box 1</h2>
-                <p>Lorem ipsum..</p>
-            </div>
+                    <div class="row">
 
-            <div id="b2" class="containerTab" style="display:none;background:blue">
-                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-                <h2>Box 2</h2>
-                <p>Lorem ipsum..</p>
-            </div>
+                        <div class="panel col-sm-12 col-md-12 col-lg-6">
+                            <div class="polaroid">
+                                <img class="TM zoom" src="images/TM.png" alt="5 Terre" style="width:100%">
 
-            <div id="b3" class="containerTab" style="display:none;background:red">
-                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-                <h2>Box 3</h2>
-                <p>Lorem ipsum..</p>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary btn-lg">DEMO</button>
+                                <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+                            </div>
+                        </div>
+                        <div class="panel col-sm-12 col-md-12 col-lg-6">
+                            <span class="projectTitleName">TICKET MANAGER</span></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="projectOne" id="b2" class="containerTab" style="display:none;background:blue">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">
+                        <i class="fa fa-times-circle" aria-hidden="true"></i>
+                    </span>
+                    <h2>Box 2</h2>
+                    <p>Lorem ipsum..</p>
+                </div>
+
+                <div id="projectOne" id="b3" class="containerTab" style="display:none;background:red">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                    <h2>Box 3</h2>
+                    <p>Lorem ipsum..</p>
+                </div>
             </div>
         </div>
-    </div>
 
 
 
-    <!-- Side navigation -->
-    <div class="sidenav">
 
-        <a class="iconLink" href="www.linkedin.com/in/james-barkley-451875174" target="_blank"><i
-                class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        <a class="iconLink" href="mailto: jhbarkle@ncsu.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-        <a class="iconLink" href="https://github.com/Jbarkley27" target="_blank"><i class="fa fa-github"
-                aria-hidden="true"></i></a>
-    </div>
+        <!-- Side navigation -->
+        <div class="sidenav">
+
+            <!--Top vertical line-->
+            <style>
+                .vlt {
+                    border-left: 2px solid #abb7b7;
+                    height: 100px;
+                    position: absolute;
+                    left: 50%;
+                    top: 230px;
+                }
+            </style>
+
+            <div class="vlt"></div>
+            <a class="iconLink" href="www.linkedin.com/in/james-barkley-451875174" target="_blank"><i
+                    class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a class="iconLink" href="mailto: jhbarkle@ncsu.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            <a class="iconLink" href="https://github.com/Jbarkley27" target="_blank"><i class="fa fa-github"
+                    aria-hidden="true"></i></a>
 
 
+            <!--Top vertical line-->
+            <div class="vlb"></div>
+            <style>
+                .vlb {
+                    border-left: 2px solid #abb7b7;
+                    height: 100px;
+                    position: absolute;
+                    left: 50%;
 
-    <script src="action.js"></script>
+                    top: 535px;
+                }
+            </style>
+        </div>
+
+
+        <!-- Image and text -->
+        <nav class="navbar2 fixed-bottom">
+            <a class="navbar-brand" href="#">
+
+
+                <strong class="resumeBottom">RESUME</strong>
+            </a>
+        </nav>
+        <script src="action.js"></script>
 </body>
 
 </html>
