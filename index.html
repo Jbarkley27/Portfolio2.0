@@ -61,113 +61,6 @@
 
 
 
-        <div class="container">
-
-            <!-- The grid: three columns -->
-            <div class="row">
-                <div class="column one col-sm-12 col-md-4 col-lg-3" onclick="openTab('b1');">
-                    <a href="#b1" onclick="openTab('b1');">
-                        <div class="middle">
-                            <div class="text">Ticket Manager</div>
-                        </div>
-                    </a>
-
-                </div>
-                <div class="column two  col-sm-12 col-md-4 col-lg-3" onclick="openTab('b2');">
-                    <a href="#b1" onclick="openTab('b1');">
-                        <div class="middle">
-                            <div class="text">Catch 100</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="column  three col-sm-6 col-md-4 col-lg-3" onclick="openTab('b3');">
-                    <a href="#b1" onclick="openTab('b1');">
-                        <div class="middle">
-                            <div class="text">Portfolio</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="column  four col-sm-6 col-md-4 col-lg-3" onclick="openTab('b3');">
-                    <a href="#b1" onclick="openTab('b1');">
-                        <div class="middle">
-                            <div class="text">Project Bug Tracker</div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="column five col-sm-6 col-md-4 col-lg-3" onclick="openTab('b1');">
-                    <a href="#b1" onclick="openTab('b1');">
-                        <div class="middle">
-                            <div class="text">Word's Worth</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="column six col-sm-6 col-md-4 col-lg-3" onclick="openTab('b2');">
-                    <a href="#b1" onclick="openTab('b1');">
-                        <div class="middle">
-                            <div class="text">PackDoption</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="column  seven col-sm-6 col-md-4 col-lg-3" onclick="openTab('b3');">
-                    <a href="#b1" onclick="openTab('b1');">
-                        <div class="middle">
-                            <div class="text">Coming Soon</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="column  eight col-sm-6 col-md-4 col-lg-3" onclick="openTab('b3');">
-                    <a href="#b1" onclick="openTab('b1');">
-                        <div class="middle">
-                            <div class="text">Movie Database</div>
-                        </div>
-                    </a>
-                </div>
-
-
-            </div>
-            <div>
-                <!-- The expanding grid (hidden by default) -->
-                <div id="b1" class="containerTab">
-                    <!-- If you want the ability to close the container, add a close button -->
-                    <span onclick="this.parentElement.style.display='none'" class="closebtn">
-                        <i class="fa fa-times-circle" aria-hidden="true"></i>
-                    </span>
-
-                    <div class="row">
-
-                        <div class="panel col-sm-12 col-md-12 col-lg-6">
-                            <div class="polaroid">
-                                <img class="TM zoom" src="images/TM.png" alt="5 Terre" style="width:100%">
-
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-primary btn-lg">DEMO</button>
-                                <button type="button" class="btn btn-secondary btn-lg">Large button</button>
-                            </div>
-                        </div>
-                        <div class="panel col-sm-12 col-md-12 col-lg-6">
-                            <span class="projectTitleName">TICKET MANAGER</span></p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div id="projectOne" id="b2" class="containerTab" style="display:none;background:blue">
-                    <span onclick="this.parentElement.style.display='none'" class="closebtn">
-                        <i class="fa fa-times-circle" aria-hidden="true"></i>
-                    </span>
-                    <h2>Box 2</h2>
-                    <p>Lorem ipsum..</p>
-                </div>
-
-                <div id="projectOne" id="b3" class="containerTab" style="display:none;background:red">
-                    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-                    <h2>Box 3</h2>
-                    <p>Lorem ipsum..</p>
-                </div>
-            </div>
-        </div>
 
 
 
@@ -176,15 +69,7 @@
         <div class="sidenav">
 
             <!--Top vertical line-->
-            <style>
-                .vlt {
-                    border-left: 2px solid #abb7b7;
-                    height: 100px;
-                    position: absolute;
-                    left: 50%;
-                    top: 230px;
-                }
-            </style>
+
 
             <div class="vlt"></div>
             <a class="iconLink" href="www.linkedin.com/in/james-barkley-451875174" target="_blank"><i
@@ -196,16 +81,66 @@
 
             <!--Top vertical line-->
             <div class="vlb"></div>
-            <style>
-                .vlb {
-                    border-left: 2px solid #abb7b7;
-                    height: 100px;
-                    position: absolute;
-                    left: 50%;
+        </div>
 
-                    top: 535px;
-                }
-            </style>
+
+        <div class="gallery">
+            <div class="project one rowOne">
+                <a href="#b1" onclick="openTab('b1');">
+                    <div class="middle">
+                        <div id="circle" class="text">Ticket Manager</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project two rowOne">
+                <a href="#b1" onclick="openTab('b1');">
+                    <div class="middle">
+                        <div id="circle" class="text">Catch <br> 100</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project three rowOne">
+                <a href="#b1" onclick="openTab('b1');">
+                    <div class="middle">
+                        <div id="circle" class="text"> <br>Portfolio</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project four rowOne">
+                <a href="#b1" onclick="openTab('b1');">
+                    <div class="middle">
+                        <div id="circle" class="text">Bug <br> Tracker</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project five">
+                <a href="#b1" onclick="openTab('b1');">
+                    <div class="middle">
+                        <div id="circle" class="text">Word's <br> Worth</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project six">
+                <a href="#b1" onclick="openTab('b1');">
+                    <div class="middle">
+                        <div id="circle" class="text">Pack <br> Doption</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project seven">
+                <a href="#b1" onclick="openTab('b1');">
+                    <div class="middle">
+                        <div id="circle" class="text"> <br> Tetris</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project eight">
+                <a href="#b1" onclick="openTab('b1');">
+                    <div class="middle">
+                        <div id="circle" class="text">Coming <br> Soon..</div>
+                    </div>
+                </a>
+            </div>
         </div>
 
 
