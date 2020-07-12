@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;400;800&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Raleway:wght@300&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90f022f08a.js" crossorigin="anonymous"></script>
 
-
-    <title>James Barkley Portfolio</title>
+    <title>James Barkley's Portfolio</title>
 </head>
 
 <body>
@@ -38,121 +39,268 @@
         </a>
     </nav>
 
+    <div class='nav'>
 
-    <!--Description-->
-    <div>
-        <div class="welcome p1">
-
-            <div class="p intro">
-                <p class="nameHeader greeting">HI, MY NAME IS <span class="name">JAMES BARKLEY</span></p>
-            </div>
-            <div class="p description">
-                <h2 class="s description">I AM A JUNIOR STUYDING COMPUTER SCIENCE <br> AT NC STATE UNIVERSITY!</h2>
-            </div>
-            <div class="seperation">
-                <hr class="s style-two">
-            </div>
-
-
-
-
-        </div>
-        <div></div>
-
-
-
-
-
-
-
-        <!-- Side navigation -->
-        <div class="sidenav">
-
-            <!--Top vertical line-->
-
-
-            <div class="vlt"></div>
+        <div class="icon-bar ">
             <a class="iconLink" href="www.linkedin.com/in/james-barkley-451875174" target="_blank"><i
                     class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+
             <a class="iconLink" href="mailto: jhbarkle@ncsu.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
             <a class="iconLink" href="https://github.com/Jbarkley27" target="_blank"><i class="fa fa-github"
                     aria-hidden="true"></i></a>
-
-
-            <!--Top vertical line-->
-            <div class="vlb"></div>
+        </div>
+        <hr class="style-two">
+        <div>
+            <h1 id="name-intro">JAMESB.IO</h1>
         </div>
 
+        <div class="p">
+            <span class="s description">HI, MY NAME IS JAMES BARKLEY</span>
+            <br>
+            <span id="desc-2">I AM A 3RD YEAR COMPUTER SCIENCE STUDENT</span>
+            <br>
+            <span id="desc-3">WITH A PASSION FOR PROGRAMMING.</span>
 
-        <div class="gallery">
-            <div class="project one rowOne">
-                <a href="#b1" onclick="openTab('b1');">
-                    <div class="middle">
-                        <div id="circle" class="text">Ticket Manager</div>
+        </div>
+    </div>
+
+
+    <!--Description-->
+
+
+    <div class='tech-bg'>
+        <div class="tech-stack">
+            <table align="center">
+                <tr>
+                    <h5 class="skills-header-1"><strong>TECH</strong></h5>
+                    <h6 class="skills-header-2">Languages, Tools, Frameworks</h6>
+                    <hr class="style-three">
+                </tr>
+
+                <tr>
+                    <td class="icon-font"><img class="icone" src="./icons/html5.svg" alt=""><br> HTML
+                        </tdclass="icon-font">
+                    <td class="icon-font"><img class="icone" src="./icons/css3.svg" alt=""><br>CSS
+                    </td class="icon-font">
+                    <td class="icon-font"><img class="icone" src="./icons/javascript.svg" alt=""><br> JavaScript
+                    </td>
+                    <td class="icon-font"><img class="icone" src="./icons/bootstrap.svg" alt=""><br> Bootstrap </td>
+                    <td class="icon-font"><img class="icone" src="./icons/graphql.svg" alt=""><br>GraphQL</td>
+                </tr>
+                <tr>
+                    <td class="icon-font"><img class="icone" src="./icons/java.svg" alt=""><br>Java</td>
+                    <td class="icon-font"><img class="icone" src="./icons/python.svg" alt=""><br>Python </td>
+                    <td class="icon-font"><img class="icone" src="./icons/mysql.svg" alt="MySQL"><br> MySQL</td>
+                    <td class="icon-font"><img class="icone" src="./icons/c.svg" alt=""><br> C </td>
+                    <td class="icon-font"><img class="icone" src="./icons/node-dot-js.svg" alt=""><br> Node.js</td>
+                </tr>
+
+            </table>
+
+
+        </div>
+    </div>
+
+    <div class="resume-div">
+        <button align="center" class="resume">
+
+            <i class="fa fa-download" aria-hidden="true"></i>
+            <span>Resume</span>
+        </button>
+    </div>
+
+
+    </div>
+
+
+
+    <hr class="style-one">
+
+
+    <div>
+        <div class="projects-section">
+            <h2 id="my-work">MY WORK <img id="project-section-arrow" src="icons/download.svg" alt=""></h2>
+        </div>
+        <div class="gallery-1">
+
+            <div class="one card">
+
+                <div class="text-info">
+                    <div>
+                        <h4 class="project-1-title"><strong>Ticket Manager</strong></h4>
+                        <hr class="style-card">
                     </div>
-                </a>
+                    <div>
+                        <p class="project-1-description">Ticket Manager's is a program that handles different
+                            types of interactions with IT staff, A user would...</p>
+                    </div>
+                    <div>
+
+                        <img class="icon-1" src="./icons/java.svg" alt="">
+                    </div>
+                    <div><button class="preview-1" id="myBtn">PREVIEW</button></div>
+                </div>
             </div>
-            <div class="project two rowOne">
-                <a href="#b1" onclick="openTab('b1');">
-                    <div class="middle">
-                        <div id="circle" class="text">Catch <br> 100</div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <i class="close far fa-times-circle"></i>
+                    <div class="info-container-modal">
+                        <h4 class="project-1-title"><strong>Ticket Manager</strong></h4>
+                        <img class="gif proj-gif-1" src="https://media.giphy.com/media/W5U15Mf8ULPiAdZYaF/source.gif"
+                            alt="">
+                        <div>
+                            <p class="project-1-description">Ticket Manager's is a program that handles different
+                                types of interactions with IT staff, A user would
+                                report a service needed or
+                                an incident via a ticket to the Ticket Manager Software. My responsibility
+                                implementing the backend from a given design document.</p>
+                        </div>
+
                     </div>
-                </a>
+                </div>
+
             </div>
-            <div class="project three rowOne">
-                <a href="#b1" onclick="openTab('b1');">
-                    <div class="middle">
-                        <div id="circle" class="text"> <br>Portfolio</div>
+            <div class="card two">
+                <div class="text-info">
+                    <div>
+                        <h4 class="project-1-title"><strong>Ticket Manager</strong></h4>
+                        <hr class="style-card">
                     </div>
-                </a>
+                    <div>
+                        <p class="project-1-description">Ticket Manager's is a program that handles different
+                            types of interactions with IT staff, A user would...</p>
+                    </div>
+                    <div>
+
+                        <img class="icon-1" src="./icons/java.svg" alt="">
+                    </div>
+                    <div><button class="preview-1" id="myBtn">PREVIEW</button></div>
+
+                </div>
             </div>
-            <div class="project four rowOne">
-                <a href="#b1" onclick="openTab('b1');">
-                    <div class="middle">
-                        <div id="circle" class="text">Bug <br> Tracker</div>
+            <div class="three card">
+                <div class="text-info">
+                    <div>
+                        <h4 class="project-1-title"><strong>Ticket Manager</strong></h4>
+                        <hr class="style-card">
                     </div>
-                </a>
+                    <div>
+                        <p class="project-1-description">Ticket Manager's is a program that handles different
+                            types of interactions with IT staff, A user would...</p>
+                    </div>
+                    <div>
+
+                        <img class="icon-1" src="./icons/java.svg" alt="">
+                    </div>
+                    <div><button class="preview-1" id="myBtn">PREVIEW</button></div>
+
+                </div>
             </div>
-            <div class="project five">
-                <a href="#b1" onclick="openTab('b1');">
-                    <div class="middle">
-                        <div id="circle" class="text">Word's <br> Worth</div>
+            <div class="four card">
+                <div class="text-info">
+                    <div>
+                        <h4 class="project-1-title"><strong>Ticket Manager</strong></h4>
+                        <hr class="style-card">
                     </div>
-                </a>
+                    <div>
+                        <p class="project-1-description">Ticket Manager's is a program that handles different
+                            types of interactions with IT staff, A user would...</p>
+                    </div>
+                    <div>
+
+                        <img class="icon-1" src="./icons/java.svg" alt="">
+                    </div>
+                    <div><button class="preview-1" id="myBtn">PREVIEW</button></div>
+
+                </div>
             </div>
-            <div class="project six">
-                <a href="#b1" onclick="openTab('b1');">
-                    <div class="middle">
-                        <div id="circle" class="text">Pack <br> Doption</div>
+            <div class="five card">
+                <div class="text-info">
+                    <div>
+                        <h4 class="project-1-title"><strong>Ticket Manager</strong></h4>
+                        <hr class="style-card">
                     </div>
-                </a>
+                    <div>
+                        <p class="project-1-description">Ticket Manager's is a program that handles different
+                            types of interactions with IT staff, A user would...</p>
+                    </div>
+                    <div>
+
+                        <img class="icon-1" src="./icons/java.svg" alt="">
+                    </div>
+                    <div><button class="preview-1" id="myBtn">PREVIEW</button></div>
+
+                </div>
             </div>
-            <div class="project seven">
-                <a href="#b1" onclick="openTab('b1');">
-                    <div class="middle">
-                        <div id="circle" class="text"> <br> Tetris</div>
+            <div class="six card">
+                <div class="text-info">
+                    <div>
+                        <h4 class="project-1-title"><strong>Ticket Manager</strong></h4>
+                        <hr class="style-card">
                     </div>
-                </a>
+                    <div>
+                        <p class="project-1-description">Ticket Manager's is a program that handles different
+                            types of interactions with IT staff, A user would...</p>
+                    </div>
+                    <div>
+
+                        <img class="icon-1" src="./icons/java.svg" alt="">
+                    </div>
+                    <div><button class="preview-1" id="myBtn">PREVIEW</button></div>
+
+                </div>
             </div>
-            <div class="project eight">
-                <a href="#b1" onclick="openTab('b1');">
-                    <div class="middle">
-                        <div id="circle" class="text">Coming <br> Soon..</div>
+            <div class="seven card">
+                <div class="text-info">
+                    <div>
+                        <h4 class="project-1-title"><strong>Ticket Manager</strong></h4>
+                        <hr class="style-card">
                     </div>
-                </a>
+                    <div>
+                        <p class="project-1-description">Ticket Manager's is a program that handles different
+                            types of interactions with IT staff, A user would...</p>
+                    </div>
+                    <div>
+
+                        <img class="icon-1" src="./icons/java.svg" alt="">
+                    </div>
+                    <div><button class="preview-1" id="myBtn">PREVIEW</button></div>
+
+                </div>
+            </div>
+            <div class="eight card">
+                <div class="text-info">
+                    <div>
+                        <h4 class="project-1-title"><strong>Ticket Manager</strong></h4>
+                        <hr class="style-card">
+                    </div>
+                    <div>
+                        <p class="project-1-description">Ticket Manager's is a program that handles different
+                            types of interactions with IT staff, A user would...</p>
+                    </div>
+                    <div>
+
+                        <img class="icon-1" src="./icons/java.svg" alt="">
+                    </div>
+                    <div><button class="preview-1" id="myBtn">PREVIEW</button></div>
+
+                </div>
             </div>
         </div>
+    </div>
 
 
-        <!-- Image and text -->
-        <nav class="navbar2 fixed-bottom">
-            <a class="navbar-brand" href="#">
+    <div class="footer">
+        <p>Footer</p>
+    </div>
 
+    <script src="action.js"></script>
 
-                <strong class="resumeBottom">RESUME</strong>
-            </a>
-        </nav>
-        <script src="action.js"></script>
 </body>
 
 </html>
