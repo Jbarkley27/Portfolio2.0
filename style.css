@@ -418,6 +418,46 @@ a:hover {
   color: white;
 }
 
+/*Blog*/
+.blog {
+  margin-top: 200px;
+  background-color: lightsteelblue;
+  padding: 20px;
+}
+
+.led-container {
+  text-align: center;
+  margin: 30px;
+}
+
+.blog-description {
+  text-align: center;
+}
+
+.blog-button {
+  background-color: #f5e653;
+  color: #393e46;
+}
+#led {
+  height: 100px;
+}
+
+.title-blog {
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+}
+
+.linkage {
+  font-family: Raleway, sans-serif;
+  font-size: 25px;
+  text-decoration: overline;
+}
+
+.led-description {
+  font-family: "Inconsolata", monospace;
+  font-weight: 100;
+}
+
 /* ------------------------------------Media Queries---------------------------------------*/
 
 @media only screen and (min-width: 900px) {
@@ -440,5 +480,11 @@ a:hover {
     font-size: 3vw;
     letter-spacing: 2px;
     font-family: "Inconsolata", monospace;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .blog {
+    margin-top: 500px;
   }
 }
