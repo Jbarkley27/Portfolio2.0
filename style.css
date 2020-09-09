@@ -402,6 +402,8 @@ hr.style-three {
 .gif {
   margin: 5px;
   align-self: center;
+  width: 100%;
+  height: auto;
 }
 
 .footer {
